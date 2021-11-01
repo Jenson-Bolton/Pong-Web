@@ -1,0 +1,57 @@
+@import url(./fonts/fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+:root {
+    --fandango: #B3008F;
+    --crimson: #DF0037;
+    --trypan-blue: #0306AD;
+    --bright-navy-blue: #0177CE;
+    --dark-pastel-green: #01BA30;
+    --dark-orange: #FD8902;
+    --red-orange-color-wheel: #FD4801;
+    --main-color: #252727;
+    --bg-color: #E1E1E3;
+}
+
+body,
+html {
+    background-color: var(--bg-color);
+    color: var(--main-color);
+    font-family: 'BIG JOHN', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.credits {
+    color: var(--trypan-blue);
+    font-family: 'Slim Joe', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.credits-link {
+    color: var(--trypan-blue);
+    text-decoration: none;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+
+.paralines {
+    font-family: 'Paralines', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.play {
+    color: var(--main-color);
+    font-family: 'Galada', cursive;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.title {
+    color: var(--main-color);
+    font-family: 'Paralines', Arial, Helvetica, sans-serif;
+    font-size: 10rem;
+    font-weight: normal;
+    margin: 0;
+}
